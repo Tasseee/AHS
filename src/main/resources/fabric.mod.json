@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hugo_sniper",
+  "version": "${version}",
+  "name": "HugoSniper",
+  "description": "Dashboard-Mod zum Beobachten und (optional, standardmaessig AUS) halbautomatischen Kaufen im HugoSMP-Auction-House. Client-only.",
+  "authors": ["HugoSniper"],
+  "license": "MIT",
+  "icon": "assets/hugo_sniper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.hugosniper.HugoSniper"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
